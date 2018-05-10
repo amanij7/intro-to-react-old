@@ -33,9 +33,11 @@
          }
        }
        ReactDOM.render(
-          <Counter />, document.getElementById('app'));
-        ReactDOM.render (<Counter label="Bloc Student"/>, document.getElementById('app')
-    
+            <Counter />, document.getElementById('app'));
+     ReactDOM.render(
+         <Counter
+           date={info.date}
+           image={info.image}/>,document.getElementById('app')
        );
     </script>
   </body>
