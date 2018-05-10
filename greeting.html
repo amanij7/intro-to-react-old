@@ -21,6 +21,7 @@
       }
 
      render() {
+       console.log("My number is: " + this.state.number);
        return (
          <div>
            <img src={this.props.image} alt="Bloc Logo"/>
@@ -32,9 +33,9 @@
          }
        }
        ReactDOM.render(
-          <Counter />, document.getElementById('app')
-         <Counter label="Bloc Student"/>, document.getElementById('app')
-       )
+          <Counter />, document.getElementById('app'));
+        ReactDOM.render (<Counter label="Bloc Student"/>, document.getElementById('app')
+    
        );
     </script>
   </body>
