@@ -33,17 +33,18 @@
          }
        }
        const info = {
-         date : new date(),
+         date : new Date(),
          image: 'https://avatars0.githubusercontent.com/u/1441485?v=4&s=280',
        }
        Counter.defaultProps = {
          label: "Web Developer Track"
        }
        ReactDOM.render(
-        <Counter />, document.getElementById('app'));
+             <Counter />, document.getElementById('app'));
+       ReactDOM.render(
          <Counter
            date={info.date}
-           image={info.image}/>,document.getElementById('app')
+           image={info.image}/>
        );
     </script>
   </body>
