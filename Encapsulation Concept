@@ -1,0 +1,2 @@
+///The encapsulation concept allows data to within each class to update unidirectionally. 
+///Unlike props, which is fixed, states can be changed within their component.
