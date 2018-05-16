@@ -40,11 +40,10 @@
          label: "Web Developer Track"
        }
        ReactDOM.render(
-             <Counter />, document.getElementById('app'));
-       ReactDOM.render(
          <Counter
            date={info.date}
-           image={info.image}/>
+           image={info.image}/>,
+          document.getElementById('app')
        );
     </script>
   </body>
